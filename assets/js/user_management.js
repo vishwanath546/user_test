@@ -291,7 +291,6 @@ function load_user_table(role_type='',start_date='',end_date='') {//done by vish
         "order": [],
         "ajax": {
             "url":base_url+'load_user_table',
-
             "type": "POST",
             data: function (a_data) {
                 a_data.role_type = role_type;
