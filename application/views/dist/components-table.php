@@ -87,7 +87,7 @@ $this->load->view('dist/_partials/header');
                   <div class="card-body">
 
                       <div class="row">
-                          <div class="form-group col-12">
+                          <div class="form-group col-6">
                               <label>Role Type</label>
 
                               <select class="form-control" id="search_role_type" name="search_role_type">
