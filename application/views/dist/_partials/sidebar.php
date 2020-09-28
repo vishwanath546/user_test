@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-th-large"></i> <span>Components</span></a>
               <ul class="dropdown-menu">
 
-                <li class="<?php echo $this->uri->segment(2) == 'components_table' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/components_table">User Management</a></li>
+                <li class="<?php echo $this->uri->segment(2) == 'components_table' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url('user_form'); ?>">User Management</a></li>
 
               </ul>
             </li>
