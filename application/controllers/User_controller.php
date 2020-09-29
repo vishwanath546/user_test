@@ -33,7 +33,7 @@ class User_controller extends CI_Controller
     'address'=>$address,
     'role_type'=>$role_type,
     'password'=>rand(10,1000),
-    'created_by'=>'u_101',
+    'created_by'=>$this->session->user_session->user_id,
     'created_on'=>date('Y-m-d'),
       'status'=>1
 
@@ -95,6 +95,10 @@ class User_controller extends CI_Controller
             echo json_encode(false);
         }
     }
+
+    /*
+* delete user
+*/
     function delete_user_data(){
         if (!is_null($this->input->post_get("user_id"))) {
 
