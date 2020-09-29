@@ -41,11 +41,11 @@ class User_model extends DatatableModel
         }
     }
 
-    function delete_user($user_id,$data){
+    function delete_user($user_id){
         try {
             $this->db->trans_start();
-                $this->db->where('user_id',$user_id);
-                $this->db->update($this->table, $data);
+
+                $this->db->delete($this->table, array('user_id'=>$user_id));
 
 
             if ($this->db->trans_status() === FALSE) {

@@ -97,10 +97,8 @@ class User_controller extends CI_Controller
     }
     function delete_user_data(){
         if (!is_null($this->input->post_get("user_id"))) {
-            $data=array(
-                'status'=>0
-            );
-            $result=$this->User_model->delete_user($this->input->post_get("user_id"),$data);
+
+            $result=$this->User_model->delete_user($this->input->post_get("user_id"));
             if($result===TRUE){
                 $response["status"] = true;
                 $response["body"] = 'Successfully user deleted ';

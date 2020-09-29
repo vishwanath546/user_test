@@ -50,6 +50,8 @@ function fetch_user_data(user_id) {
 
                 $("#email_id").rules("remove", "uniqueUserEmail");
                 $("#mobile_no").rules("remove", "mobile");
+                $("#email_id").prop("readonly", true);
+                $("#mobile_no").prop("readonly", true);
             } else {
 
             }
