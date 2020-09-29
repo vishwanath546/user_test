@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $this->load->view('dist/_partials/header');
 ?>
 
-<body>
+<body style="background-color: #3d6cb2!important;">
 <div id="app">
     <section class="section">
         <div class="container mt-5">

@@ -87,7 +87,8 @@ $this->load->view('dist/_partials/header');
                   <div class="card-body">
 
                       <div class="row">
-                          <div class="form-group col-6">
+                          <div class="col-6">
+                          <div class="form-group ">
                               <label>Role Type</label>
 
                               <select class="form-control" id="search_role_type" name="search_role_type">
@@ -98,6 +99,7 @@ $this->load->view('dist/_partials/header');
                               </select>
 
                           </div>
+                      </div>
                       </div>
 
                       <div class="card">
