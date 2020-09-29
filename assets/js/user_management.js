@@ -5,7 +5,8 @@ $("#close_user_div").click(function() {
     validator.resetForm();
     document.getElementById("add_user_form").reset();
     $('#user_section').slideToggle();
-
+    $("#email_id").prop("readonly", false);
+    $("#mobile_no").prop("readonly", false);
 });
 $("#search_role_type").change(function() {
     var role_type = $("#search_role_type").val();
@@ -104,7 +105,17 @@ $(document).ready(function () {
         document.getElementById("add_user_form").reset();
         $('#update_user_id').val(0);
         $('#user_section').slideToggle();
+        $("#email_id").prop("readonly", false);
+        $("#mobile_no").prop("readonly", false);
+        $('#email_id').rules("add", {
+            uniqueUserEmail: true
 
+        });
+
+        $('#mobile_no').rules("add", {
+            mobile: true
+
+        });
 
 
 
