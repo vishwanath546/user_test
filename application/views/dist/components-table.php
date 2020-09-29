@@ -138,7 +138,7 @@ $this->load->view('dist/_partials/header');
                         <tr>
                             <thead>
 
-                          <th>user Nmae</th>
+                          <th>User Nmae</th>
                           <th>Email id</th>
                           <th>Mobile NO</th>
                          <th>Role </th>
