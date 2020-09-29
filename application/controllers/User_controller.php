@@ -1,5 +1,4 @@
 <?php
-require_once APPPATH . "/PHPExcel/PHPExcel.php";
 
 class User_controller extends CI_Controller
 {
