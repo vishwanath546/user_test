@@ -27,7 +27,6 @@ $(document).ready(function () {
 
             $.ajax({
                 url:base_url+'login_validation',
-
                 type: "POST",
                 dataType: "json",
                 data: $("#login_form").serialize(),
@@ -35,7 +34,7 @@ $(document).ready(function () {
 
                     if (result.status == 200) {
 
-                        window.location=window.location.protocol+'user_form';
+                       // window.location=window.location.protocol+'user_form';
 
                     } else {
                         toastr.info(result.body);

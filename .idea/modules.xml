@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/stisla-codeigniter.iml" filepath="$PROJECT_DIR$/.idea/stisla-codeigniter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Distributor1/.idea/stisla-codeigniter.iml" filepath="$PROJECT_DIR$/../Distributor1/.idea/stisla-codeigniter.iml" />
     </modules>
   </component>
 </project>

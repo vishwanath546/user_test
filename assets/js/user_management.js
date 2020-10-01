@@ -1,4 +1,8 @@
 const base_url='';
+
+
+
+
 $("#close_user_div").click(function() {
     var validator = $("#add_user_form").validate();
 
@@ -259,12 +263,7 @@ $(document).ready(function () {
 
             },
 
-
-
-
-
-
-        },
+  },
         messages: {
 
             start_date: {
